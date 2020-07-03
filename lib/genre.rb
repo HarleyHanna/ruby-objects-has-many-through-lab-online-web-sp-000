@@ -19,6 +19,12 @@ class Genre
     end
   end
   
+  def artists
+    self.all.collect do |song|
+      song.artist
+    end
+  end
+  
   
   
   
