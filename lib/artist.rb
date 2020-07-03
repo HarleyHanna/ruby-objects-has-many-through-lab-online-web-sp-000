@@ -25,6 +25,7 @@ class Artist
   end
   
   def genres
+    self.all.
     
     
 
